@@ -1,5 +1,27 @@
+:root {
+    --black: rgba(0, 0, 0, 1);
+    --stack: rgba(140, 140, 140, 1);
+    --perano: rgba(160, 198, 253, 1);
+    --black-haze: rgba(246, 246, 246, 1);
+    --white: rgba(255, 255, 255, 1);
 
-#map{
-    width: 900px;
-    height: 500px;
+    --font-size-m: 24px;
+    --font-size-1: 40px;
+    --font-size-x1: 64px;
+
+    --font-family-inter: "Inter";
+}
+
+.border-1px-stack {
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--stack);
+}
+
+.inter-normal-stack-24px {
+    color: var(--stack);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;
 }
