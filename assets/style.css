@@ -139,8 +139,6 @@ title {
     width: 265px;
 }
 
-
-
 .search-for-events {
     align-self: flex-end;
     color: var(--black);
@@ -180,6 +178,10 @@ title {
     margin-top: 30px;
     min-width: 409px;
     padding: 11px 20px;
+}
+
+.dropdown {
+    margin-top: 20px;
 }
 
 
