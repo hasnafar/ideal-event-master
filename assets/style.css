@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Inter:400,700");
+
 :root {
     --black: rgba(0, 0, 0, 1);
     --stack: rgba(140, 140, 140, 1);
@@ -10,6 +12,45 @@
     --font-size-x1: 64px;
 
     --font-family-inter: "Inter";
+}
+
+.screen {
+    align-items: center;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    height: 982px;
+    width: 1512px;
+}
+
+.hidden,
+.hidden * {
+    pointer-events: none;
+    visibility: hidden;
+}
+
+.rectangle {
+    background-color: var(--white);
+    height: 48px;
+    margin-right: 1px;
+    width: 1453px;
+}
+
+.rectangle-8 {
+    background-color: var(--white);
+    height: 48px;
+    margin-right: 1px;
+    margin-top: 25px;
+    width: 1453px;
+}
+
+.overlap-group4 {
+    align-items: flex-start;
+    background-color: var(--perano);
+    display: flex;
+    height: 165px;
+    min-width: 1512px;
+    padding: 56px 482px;
 }
 
 .border-1px-stack {
