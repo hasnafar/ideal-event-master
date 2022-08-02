@@ -19,6 +19,7 @@ article {
     display: flex;
     padding-top: 5%;
     gap: 30px;
+    width: 100%;
 }
 
 .screen {
@@ -26,8 +27,8 @@ article {
     background-color: var(--black-haze);
     display: flex;
     flex-direction: column;
-    height: 982px;
-    width: 1512px;
+    height: 100%;
+    width: 100%;
 }
 
 .hidden,
