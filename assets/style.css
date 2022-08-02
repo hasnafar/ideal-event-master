@@ -130,13 +130,8 @@ title {
 
 .overlap-group {
     align-items: flex-end;
-    background-color: var(--black-haze);
     display: flex;
-    height: 71px;
-    margin-top: 24px;
-    min-width: 409px;
-    padding: 11px 20px;
-}
+ }
 
 .enter-cityzip-code {
     letter-spacing: 0;
