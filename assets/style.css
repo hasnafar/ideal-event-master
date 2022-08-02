@@ -108,15 +108,6 @@ title {
     font-style: normal;
 }
 
-.search {
-    color: var(--black);
-    font-family: var(--font-family-inter);
-    font-size: var(--font-size-m);
-    font-weight: 400;
-    letter-spacing: 0;
-    min-height: 29px;
-}
-
 .overlap-group1 {
     align-items: flex-end;
     background-color: var(--black-haze);
@@ -136,6 +127,7 @@ title {
 .overlap-group {
     align-items: flex-end;
     display: flex;
+    margin-bottom: 25px;
  }
 
 .enter-cityzip-code {
@@ -152,7 +144,7 @@ title {
     font-weight: 700;
     letter-spacing: 0;
     margin-right: 27px;
-    margin-top: 17px;
+    margin-bottom: 20px;
     min-height: 67px;
     text-align: center;
     width: 378px;
@@ -162,7 +154,7 @@ title {
     align-items: flex-start;
     border-radius: 6px;
     display: flex;
-    margin-top: 40px;
+    margin-top: 35px;
    
 }
 
@@ -173,6 +165,11 @@ title {
     font-weight: 400;
     letter-spacing: 0;
     min-height: 29px;
+    border-radius: 5px;
+}
+
+.search:hover {
+    box-shadow: inset 0 0 5px var(--black);
 }
 
 .overlap-group1 {
@@ -188,14 +185,3 @@ title {
 .dropdown {
     margin-top: 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
