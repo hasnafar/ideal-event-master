@@ -15,13 +15,15 @@
 }
 
 article {
+    background-color: var(--black-haze);
     display: flex;
-    gap: 10px;
+    padding-top: 5%;
+    gap: 30px;
 }
 
 .screen {
     align-items: center;
-    background-color: var(--white);
+    background-color: var(--black-haze);
     display: flex;
     flex-direction: column;
     height: 982px;
@@ -68,6 +70,7 @@ title {
     min-height: 51px;
     text-align: center;
     width: 548px;
+    height: 100%;
 }
 
 .flex-row {
