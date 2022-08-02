@@ -86,12 +86,17 @@ title {
 
 .overlap-group3 {
     align-items: flex-start;
-    background-color: var(--white);
+    background: linear-gradient(135deg, rgb(43, 97, 151), rgba(38, 35, 35, 0));
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.50);
+    border: 1px solid rgb(49, 67, 59);
     display: flex;
     flex-direction: column;
     min-height: 426px;
     padding: 34px 29px;
     width: 477px;
+    border-radius: 32px;
 }
 
 .border-1px-stack {
@@ -138,16 +143,20 @@ title {
 
 .search-for-events {
     align-self: flex-end;
-    color: var(--black);
+    /* color: var(--black);
     font-family: var(--font-family-inter);
     font-size: var(--font-size-1);
-    font-weight: 700;
+    font-weight: 700; */
     letter-spacing: 0;
     margin-right: 27px;
     margin-bottom: 20px;
     min-height: 67px;
     text-align: center;
     width: 378px;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    font-size: 35px;
+    text-transform: uppercase;
+    text-rendering: optimizeLegibility;
 }
 
 .overlap-group2 {
