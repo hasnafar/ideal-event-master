@@ -25,3 +25,58 @@
     font-weight: 400;
     font-style: normal;
 }
+
+.search {
+    color: var(--black);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    letter-spacing: 0;
+    min-height: 29px;
+}
+
+.overlap-group1 {
+    align-items: flex-end;
+    background-color: var(--black-haze);
+    display: flex;
+    height: 71px;
+    margin-top: 30px;
+    min-width: 409px;
+    padding: 11px 20px;
+}
+
+.choose-a-category {
+    letter-spacing: 0;
+    min-height: 37px;
+    width: 265px;
+}
+
+.overlap-group {
+    align-items: flex-end;
+    background-color: var(--black-haze);
+    display: flex;
+    height: 71px;
+    margin-top: 24px;
+    min-width: 409px;
+    padding: 11px 20px;
+}
+
+.enter-cityzip-code {
+    letter-spacing: 0;
+    min-height: 37px;
+    width: 265px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
