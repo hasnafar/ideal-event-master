@@ -1,5 +1,159 @@
+@import url("https://fonts.googleapis.com/css?family=Inter:400,700");
 
-#map{
-    width: 900px;
-    height: 500px;
+:root {
+    --black: rgba(0, 0, 0, 1);
+    --stack: rgba(140, 140, 140, 1);
+    --perano: rgba(160, 198, 253, 1);
+    --black-haze: rgba(246, 246, 246, 1);
+    --white: rgba(255, 255, 255, 1);
+
+    --font-size-m: 24px;
+    --font-size-1: 40px;
+    --font-size-x1: 64px;
+
+    --font-family-inter: "Inter";
 }
+
+.screen {
+    align-items: center;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    height: 982px;
+    width: 1512px;
+}
+
+.hidden,
+.hidden * {
+    pointer-events: none;
+    visibility: hidden;
+}
+
+.rectangle {
+    background-color: var(--white);
+    height: 48px;
+    margin-right: 1px;
+    width: 1453px;
+}
+
+.rectangle-8 {
+    background-color: var(--white);
+    height: 48px;
+    margin-right: 1px;
+    margin-top: 25px;
+    width: 1453px;
+}
+
+.overlap-group4 {
+    align-items: flex-start;
+    background-color: var(--perano);
+    display: flex;
+    height: 165px;
+    min-width: 1512px;
+    padding: 56px 482px;
+}
+
+title {
+    color: var(--black);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-xl);
+    font-weight: 700;
+    letter-spacing: 0;
+    min-height: 51px;
+    text-align: center;
+    width: 548px;
+}
+
+.flex-row {
+    align-items: flex-start;
+    display: flex;
+    margin-right: 1px;
+    margin-top: 25px;
+    min-width: 1453px;
+}
+
+.map {
+    background-color: #d9d9d9;
+    height: 426px;
+    margin-left: 33px;
+    width: 943px;
+}
+
+.overlap-group3 {
+    align-items: flex-start;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    min-height: 426px;
+    padding: 34px 29px;
+    width: 477px;
+}
+
+.border-1px-stack {
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--stack);
+}
+
+.inter-normal-stack-24px {
+    color: var(--stack);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.search {
+    color: var(--black);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    letter-spacing: 0;
+    min-height: 29px;
+}
+
+.overlap-group1 {
+    align-items: flex-end;
+    background-color: var(--black-haze);
+    display: flex;
+    height: 71px;
+    margin-top: 30px;
+    min-width: 409px;
+    padding: 11px 20px;
+}
+
+.choose-a-category {
+    letter-spacing: 0;
+    min-height: 37px;
+    width: 265px;
+}
+
+.overlap-group {
+    align-items: flex-end;
+    background-color: var(--black-haze);
+    display: flex;
+    height: 71px;
+    margin-top: 24px;
+    min-width: 409px;
+    padding: 11px 20px;
+}
+
+.enter-cityzip-code {
+    letter-spacing: 0;
+    min-height: 37px;
+    width: 265px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
