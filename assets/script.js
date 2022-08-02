@@ -96,6 +96,12 @@ function displayData(){
         );
       
         
+        //Adding location markers to mapbox map
+
+        new mapboxgl.Marker()
+            .setLngLat([venueLongitude,venueLatitude])
+            .setPopup(new mapboxgl.Popup().setHTML("<p>"+name+"</p>"))
+            .addTo(map);
         
         
         }
