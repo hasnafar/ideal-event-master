@@ -1,4 +1,4 @@
-
+var DATA;
 const mapboxKey="pk.eyJ1IjoiYWlqYXptIiwiYSI6ImNra2ZwcDdvZTA2ZHoydW15NjFjcTF6cmwifQ.XLBRPPbiyXBl4BIAgUr0Qw";
 var url="https://app.ticketmaster.com/discovery/v2/events.json?radius=30&sort=date,asc&apikey=pLOeuGq2JL05uEGrZG7DuGWu6sh2OnMz";
 
