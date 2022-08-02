@@ -89,9 +89,9 @@ function displayData(){
         
         $("#list-results").append(
             "<article>"+
-            "<h3>"+name+"</h3>"+
-            "<h6>"+date+" "+startTime+"</h4>"+
-            "<h6>"+cityName+"</h4>"+
+            "<h5>"+name+"</h5>"+
+            "<h6>"+date+" "+startTime+"</h6>"+
+            "<h6>"+cityName+"</h6>"+
             "<a href="+ticketUrl+" target='_blank'>Get Tickets</a>"+
             "</article>"
         );
