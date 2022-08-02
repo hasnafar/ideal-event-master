@@ -45,7 +45,8 @@
 }
 
 .overlap-group4 {
-    align-items: flex-start;
+    align-items: flex-start; 
+    justify-content: center;
     background-color: var(--perano);
     display: flex;
     height: 165px;
