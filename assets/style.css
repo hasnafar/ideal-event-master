@@ -53,7 +53,7 @@ article {
 } */
 
 .overlap-group4 {
-    align-items: flex-start; 
+    align-items: center; 
     justify-content: center;
     background-color: var(--perano);
     display: flex;
@@ -62,16 +62,16 @@ article {
     padding: 56px 482px;
 }
 
-title {
+.title {
     color: var(--black);
     font-family: var(--font-family-inter);
-    font-size: var(--font-size-xl);
-    font-weight: 700;
+    font-size: 75px;
+    font-weight: 700px;
     letter-spacing: 0;
     min-height: 51px;
     text-align: center;
     width: 548px;
-    height: 100%;
+    
 }
 
 .flex-row {
@@ -149,7 +149,10 @@ title {
 
 .search-for-events {
     align-self: flex-end;
-    font-weight: 900;
+    /* color: var(--black);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-1);
+    font-weight: 700; */
     letter-spacing: 0;
     margin-right: 27px;
     margin-bottom: 20px;
