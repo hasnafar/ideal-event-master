@@ -147,10 +147,7 @@ title {
 
 .search-for-events {
     align-self: flex-end;
-    /* color: var(--black);
-    font-family: var(--font-family-inter);
-    font-size: var(--font-size-1);
-    font-weight: 700; */
+    font-weight: 900;
     letter-spacing: 0;
     margin-right: 27px;
     margin-bottom: 20px;
