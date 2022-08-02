@@ -10,7 +10,11 @@
     <link rel="stylesheet" href="assets/style.css">
     <script src='https://api.mapbox.com/mapbox-gl-js/v2.9.2/mapbox-gl.js'></script>
     <link href='https://api.mapbox.com/mapbox-gl-js/v2.9.2/mapbox-gl.css' rel='stylesheet'/>
-    <title>Event Master</title>
+    
+    <header class= "overlap-group4" class = "screen">
+        <h1 class="title">Event Master</h1>
+    </header>
+
 </head>
 
 <body>
@@ -20,15 +24,13 @@
     <script src="assets/script.js"></script>
     
 
-    <div class="screen">
+    <main class="screen">
 
-        <div class="overlap-group4">
-            <h1 class="title">Event Master</h1>
-        </div>
+        
     
-        <div class="flex-row">
+        <aside class="flex-row">
 
-            <div class="overlap-group3 border-1px-stack">
+            <section class="overlap-group3 border-1px-stack">
                 <div class="search-for-events">Search for Events</div>
 
                 <div class="overlap-group border-1px-stack">
@@ -43,19 +45,23 @@
                     <div class="search">Search</div>
                 </div>
 
-            </div>
+            </section>
     
             <div id="map"></div>
         
-        </div>
+        </aside>
         
-    <div class="rectangle-8 border-1px-stack"></div>
-    <div class="rectangle border-1px-stack"></div>
-    <div class="rectangle border-1px-stack"></div>
-    <div class="rectangle border-1px-stack"></div>
-    <div class="rectangle border-1px-stack"></div>
-    <div class="rectangle border-1px-stack"></div>
-    </div>
+        <section id="list-results">
+
+            <div class="rectangle-8 border-1px-stack"></div>
+            <div class="rectangle border-1px-stack"></div>
+            <div class="rectangle border-1px-stack"></div>
+            <div class="rectangle border-1px-stack"></div>
+            <div class="rectangle border-1px-stack"></div>
+            <div class="rectangle border-1px-stack"></div>
+
+        </section>
+    </main>
 </body>
 
 </html>
