@@ -161,13 +161,10 @@ title {
 
 .overlap-group2 {
     align-items: flex-start;
-    background-color: var(--perano);
     border-radius: 6px;
     display: flex;
-    height: 38px;
     margin-top: 40px;
-    min-width: 115px;
-    padding: 4px 18px;
+   
 }
 
 .search {
