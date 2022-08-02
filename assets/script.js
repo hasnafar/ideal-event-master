@@ -13,6 +13,7 @@ var LAT;
 
 $(".search").on("click",function(){
     ZIP_CITY=$("#zip").val();
+    CATEGORY=$("#category").val();
     $("#list-results").empty();   // Clear the list every time you click search so it can be repopulated
     displayData();
 
@@ -26,7 +27,7 @@ function displayData(){
 
     const mapboxKey="pk.eyJ1IjoiYWlqYXptIiwiYSI6ImNra2ZwcDdvZTA2ZHoydW15NjFjcTF6cmwifQ.XLBRPPbiyXBl4BIAgUr0Qw";
 
-    var zipURL="https://api.mapbox.com/geocoding/v5/mapbox.places/"+ZIP_CITY+".json?access_token=pk.eyJ1IjoiYWlqYXptIiwiYSI6ImNra2ZwcDdvZTA2ZHoydW15NjFjcTF6cmwifQ.XLBRPPbiyXBl4BIAgUr0Qw";
+    var zipURL="https://api.mapbox.com/geocoding/v5/mapbox.places/"+ZIP_CITY+"/US.json?access_token=pk.eyJ1IjoiYWlqYXptIiwiYSI6ImNra2ZwcDdvZTA2ZHoydW15NjFjcTF6cmwifQ.XLBRPPbiyXBl4BIAgUr0Qw";
 
 
     $.ajax({
