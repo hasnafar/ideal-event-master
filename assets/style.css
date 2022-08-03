@@ -155,7 +155,7 @@ article h5, h6, a {
 }
 
 .overlap-group {
-    align-items: flex-end;
+    align-items: stretch;
     display: flex;
     margin-bottom: 25px;
  }
