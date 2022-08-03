@@ -163,7 +163,8 @@ article h5, h6, a {
 .enter-cityzip-code {
     letter-spacing: 0;
     min-height: 37px;
-    width: 265px;
+    width: 200px;
+    font-size: 13px;
  }
 
 .search-for-events {
