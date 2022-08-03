@@ -18,14 +18,13 @@ article {
     background-color: var(--black-haze);
     display: flex;
     padding-top: 5%;
-    gap: 30px;
     width: 100%;
 }
 
 
-article h5, h6, a {
+/* article h5, h6, a {
     width: 350px;
-}
+} */
 
 .screen {
     align-items: center;
