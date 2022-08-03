@@ -19,12 +19,13 @@ article {
     display: flex;
     padding-top: 5%;
     width: 100%;
+    gap: 30px;
 }
 
 
-/* article h5, h6, a {
-    width: 350px;
-} */
+article h5, h6, a {
+    width: 250px;
+}
 
 .screen {
     align-items: center;
