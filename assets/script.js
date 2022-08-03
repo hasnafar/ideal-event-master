@@ -23,6 +23,7 @@ $(".search").on("click",function(){
 
 function displayData(){
 
+   $(".result-headings").css("visibility","visible");
     //Getting Latitude and Longitude Data From Mapbox API
 
     const mapboxKey="pk.eyJ1IjoiYWlqYXptIiwiYSI6ImNra2ZwcDdvZTA2ZHoydW15NjFjcTF6cmwifQ.XLBRPPbiyXBl4BIAgUr0Qw";

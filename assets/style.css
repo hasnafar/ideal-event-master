@@ -32,6 +32,8 @@ article h5, h6, a {
     display: flex;
     margin-top: 100px;
     justify-content: center;
+    visibility: hidden;
+
 }
 
 .result-headings h3{
