@@ -20,11 +20,23 @@ article {
     padding-top: 5%;
     width: 100%;
     gap: 30px;
+    justify-content: center;
 }
 
 
 article h5, h6, a {
     width: 250px;
+}
+
+.result-headings {
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+.result-headings h3{
+    width: 250px;
+
 }
 
 .screen {
