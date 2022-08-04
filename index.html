@@ -23,7 +23,7 @@
     <main class="screen">
 
         
-    
+        <!-- Search Container -->
         <aside class="flex-row">
 
             <section class="overlap-group3 border-1px-stack">
@@ -37,21 +37,6 @@
                 <div class="overlap-group border-1px-stack" >
                     <input class="enter-cityzip-code inter-normal-stack-24px" id="category" placeholder="Event Type (optional)"></input>
                 </div>
-
-                <!-- <div class="dropdown">
-                    <button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Choose a Category
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                      <a class="dropdown-item" href="#">Concert</a>
-                      <a class="dropdown-item" href="#">Baseball</a>
-                      <a class="dropdown-item" href="#">Football</a>
-                    </div>
-                  </div> -->
-
-                <!-- <div class="overlap-group1 border-1px-stack">
-                    <h3 class="choose-a-category inter-normal-stack-24px">Choose a category</h3>
-                </div> -->
                 
                 <div class="overlap-group2">
                     <button class="search">Search</button>
@@ -59,10 +44,12 @@
 
             </section>
     
+            <!-- Map Container -->
             <div id="map"></div>
         
         </aside>
     </main>
+    
         <section class="result-headings">
             <h3>Name</h3>
             <h3>Date</h3>
@@ -70,16 +57,8 @@
             <h3>Buy Tickets</h3>
         </section>
 
-        <section id="list-results">
-
-            <!-- <div class="rectangle-8 border-1px-stack"></div>
-            <div class="rectangle border-1px-stack"></div>
-            <div class="rectangle border-1px-stack"></div>
-            <div class="rectangle border-1px-stack"></div>
-            <div class="rectangle border-1px-stack"></div>
-            <div class="rectangle border-1px-stack"></div> -->
-
-        </section>
+        <!-- Results Feedback -->
+        <section id="list-results"></section>
 
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
