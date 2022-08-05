@@ -79,6 +79,9 @@ article h5, h6, a {
     width: 100vw;
     text-align: center;
     animation: sliding-background 40s linear infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
   }
   .title {
     background: rgb(162, 162, 162);
@@ -86,7 +89,7 @@ article h5, h6, a {
     font-family: "Montserrat", sans-serif;
     font-size: 8vw;
     letter-spacing: 1vw;
-    line-height: 40vh;
+    /* line-height: 40vh; */
     margin: 0;
     mix-blend-mode: lighten;
     text-transform: uppercase;
