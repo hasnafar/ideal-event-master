@@ -72,7 +72,7 @@ article h5, h6, a {
     justify-content: center; 
   }
   .title {
-    background: rgb(162, 162, 162);
+    background: rgb(222, 214, 214);
     color: #000;
     font-family: "Montserrat", sans-serif;
     font-size: 8vw;
@@ -81,6 +81,7 @@ article h5, h6, a {
     margin: 0;
     mix-blend-mode: lighten;
     text-transform: uppercase;
+    padding-left:20px;
   }
   
   
