@@ -6,7 +6,7 @@ Event Master is an all-inclusive website through which individuals can easily se
 The search results are displayed using information from user input and by pulling data via the Ticketmaster API and Mapbox API. The functions run once the search button is clicked.
 
 ## Screenshots
-![](assets/images/event-master-1.png)
+![](assets/images/Eventmaster-1.png)
 ![](assets/images/event-master-2.png)
 ![](assets/images/event-master-3.png)
 

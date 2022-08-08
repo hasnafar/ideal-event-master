@@ -38,7 +38,7 @@ article h5, h6, a {
 
 .result-headings {
     display: flex;
-    margin-top: 100px;
+    margin-top: 25px;
     justify-content: center;
     visibility: hidden;
     background-color: var(--black-haze);;
@@ -47,7 +47,8 @@ article h5, h6, a {
 
 .result-headings h3{
     width: 250px;
-    padding-top: 100px;
+    padding-top: 25px;
+  
 
 }
 
