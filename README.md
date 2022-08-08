@@ -7,8 +7,8 @@ The search results are displayed using information from user input and by pullin
 
 ## Screenshots
 ![](assets/images/Eventmaster-1.png)
-![](assets/images/event-master-2.png)
-![](assets/images/event-master-3.png)
+![](assets/images/Eventmaster2.png)
+![](assets/images/Eventmaster3.png)
 
 ## Links
 <a href="https://hasnafar.github.io/ideal-event-master/" target="_blank">Deployed Application</a>
