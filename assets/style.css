@@ -76,9 +76,11 @@ article h5, h6, a {
 .overlap-group4 {
     align-items: center; 
     justify-content: center;
-    background-color: var(--perano);
+    background-image: url(../assets/images/events-header.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     display: flex;
-    height: 165px;
+    height: 400px;
     min-width: 1512px;
     padding: 56px 482px;
 }
@@ -87,7 +89,7 @@ article h5, h6, a {
     color: var(--black);
     font-family: var(--font-family-inter);
     font-size: 75px;
-    font-weight: 700px;
+    font-weight: bold;
     letter-spacing: 0;
     min-height: 51px;
     text-align: center;
@@ -163,7 +165,8 @@ article h5, h6, a {
 .enter-cityzip-code {
     letter-spacing: 0;
     min-height: 37px;
-    width: 265px;
+    width: 200px;
+    font-size: 13px;
  }
 
 .search-for-events {
