@@ -10,9 +10,9 @@
     <link rel="stylesheet" href="./assets/style.css">
     <script src='https://api.mapbox.com/mapbox-gl-js/v2.9.2/mapbox-gl.js'></script>
     <link href='https://api.mapbox.com/mapbox-gl-js/v2.9.2/mapbox-gl.css' rel='stylesheet'/>
-    
-    <header class= "overlap-group4" class = "screen">
-        <h1 class="title">Event&nbsp;&nbsp;Master</h1>
+    <title>Event Master</title>
+    <header class= "wrapper">
+        <h1 class="title">Event&nbsp;Master</h1>
     </header>
 
 </head>
@@ -23,8 +23,8 @@
     <main class="screen">
 
         
-    
-        <aside class="flex-row">
+        <!-- Search Container -->
+        <aside>
 
             <section class="overlap-group3 border-1px-stack">
 
@@ -37,21 +37,6 @@
                 <div class="overlap-group border-1px-stack" >
                     <input class="enter-cityzip-code inter-normal-stack-24px" id="category" placeholder="Event Type (optional)"></input>
                 </div>
-
-                <!-- <div class="dropdown">
-                    <button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Choose a Category
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                      <a class="dropdown-item" href="#">Concert</a>
-                      <a class="dropdown-item" href="#">Baseball</a>
-                      <a class="dropdown-item" href="#">Football</a>
-                    </div>
-                  </div> -->
-
-                <!-- <div class="overlap-group1 border-1px-stack">
-                    <h3 class="choose-a-category inter-normal-stack-24px">Choose a category</h3>
-                </div> -->
                 
                 <div class="overlap-group2">
                     <button class="search">Search</button>
@@ -59,9 +44,11 @@
 
             </section>
     
+            <!-- Map Container -->
             <div id="map"></div>
         
         </aside>
+<<<<<<< HEAD
         
         <section id="list-results">
 
@@ -74,6 +61,20 @@
 
         </section>
     </main>
+=======
+    </main>
+    
+        <section class="result-headings">
+            <h3>Name</h3>
+            <h3>Date</h3>
+            <h3>City</h3>
+            <h3>Buy Tickets</h3>
+        </section>
+
+        <!-- Results Feedback -->
+        <section id="list-results"></section>
+
+>>>>>>> 1998e3de5d46a2d92bc5ed3ec18bc81b2087d5ad
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>

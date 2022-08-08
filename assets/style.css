@@ -1,9 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Inter:400,700");
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700');
+@import url("https://fonts.googleapis.com/css?family=Montserrat:900");
 
 :root {
     --black: rgba(0, 0, 0, 1);
     --stack: rgba(140, 140, 140, 1);
-    --perano: rgba(160, 198, 253, 1);
     --black-haze: rgba(246, 246, 246, 1);
     --white: rgba(255, 255, 255, 1);
 
@@ -12,6 +13,13 @@
     --font-size-x1: 64px;
 
     --font-family-inter: "Inter";
+}
+body{
+       background:var(--black-haze) 
+}
+
+header{
+    margin: 0px;
 }
 
 article {
@@ -43,14 +51,6 @@ article h5, h6, a {
 
 }
 
-.screen {
-    align-items: center;
-    background-color: var(--white);
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    width: 100%;
-}
 
 .hidden,
 .hidden * {
@@ -58,57 +58,59 @@ article h5, h6, a {
     visibility: hidden;
 }
 
-/* .rectangle {
-    background-color: var(--white);
-    height: 48px;
-    margin-right: 1px;
-    width: 1453px;
-}
 
-.rectangle-8 {
-    background-color: var(--white);
-    height: 48px;
-    margin-right: 1px;
-    margin-top: 25px;
-    width: 1453px;
-} */
 
-.overlap-group4 {
-    align-items: center; 
-    justify-content: center;
-    background-image: url(../assets/images/events-header.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    display: flex;
-    height: 400px;
-    min-width: 1512px;
-    padding: 56px 482px;
-}
-
-.title {
-    color: var(--black);
-    font-family: var(--font-family-inter);
-    font-size: 75px;
-    font-weight: bold;
-    letter-spacing: 0;
-    min-height: 51px;
+.wrapper {
+    background: url("https://wallpaperaccess.com/full/2795.jpg") no-repeat
+      left/120%;
+    height: 40vh;
+    width: 100vw;
     text-align: center;
-    width: 548px;
-    
-}
+    animation: sliding-background 40s linear infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+  }
+  .title {
+    background: rgb(162, 162, 162);
+    color: #000;
+    font-family: "Montserrat", sans-serif;
+    font-size: 8vw;
+    letter-spacing: 1vw;
+    /* line-height: 40vh; */
+    margin: 0;
+    mix-blend-mode: lighten;
+    text-transform: uppercase;
+  }
+  
+  
+  @keyframes sliding-background {
+    0%,
+    100% {
+      background-position: 0 40%;
+    }
+    50% {
+      background-position: 100% 40%;
+    }
+  }
 
-.flex-row {
-    align-items: flex-start;
+aside {
+    align-items: center;
     display: flex;
     margin-right: 1px;
-    margin-top: 25px;
-    min-width: 1453px;
+    gap:100px;
 }
 
 #map {
     height: 426px;
-    margin-left: 33px;
-    width: 943px;
+    width: 90vw;
+    margin-top:15px;
+    margin-right:20px;
+}
+main {
+        background-image: url(../assets/images/concert.jpeg);
+        height:500px;
+        width: 100vw;
 }
 
 .overlap-group3 {
@@ -124,6 +126,9 @@ article h5, h6, a {
     padding: 34px 29px;
     width: 477px;
     border-radius: 32px;
+    margin-left:30px;
+    margin-top: 30px;
+    
 }
 
 .border-1px-stack {
@@ -157,8 +162,12 @@ article h5, h6, a {
 }
 
 .overlap-group {
+<<<<<<< HEAD
     align-items: stretch;
     display: flex;
+=======
+  
+>>>>>>> 1998e3de5d46a2d92bc5ed3ec18bc81b2087d5ad
     margin-bottom: 25px;
  }
 
@@ -167,21 +176,22 @@ article h5, h6, a {
     min-height: 37px;
     width: 200px;
     font-size: 13px;
+    color: var(--black);
+ }
+
+ .enter-cityzip-code:hover {
+    box-shadow: inset 0 0 5px darkblue;
  }
 
 .search-for-events {
     align-self: flex-end;
-    /* color: var(--black);
-    font-family: var(--font-family-inter);
-    font-size: var(--font-size-1);
-    font-weight: 700; */
     letter-spacing: 0;
     margin-right: 27px;
     margin-bottom: 20px;
     min-height: 67px;
     text-align: center;
     width: 378px;
-    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 35px;
     text-transform: uppercase;
     text-rendering: optimizeLegibility;
@@ -193,26 +203,31 @@ article h5, h6, a {
 }
 
 .overlap-group2 {
-    align-items: flex-start;
+    
     border-radius: 6px;
-    display: flex;
+    
     margin-top: 35px;
    
 }
 
 .search {
     color: var(--black);
-    font-family: var(--font-family-inter);
-    font-size: var(--font-size-m);
+    font-family:fantasy;
+    font-family: "Montserrat", sans-serif;
     font-weight: 400;
     letter-spacing: 0;
     min-height: 29px;
-    border-radius: 5px;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #a84738;
+    opacity: 0.7;
 }
 
 .search:hover {
     box-shadow: inset 0 0 20px darkblue;
     background-color: yellow;
+    transition: 1s;
 }
 
 .overlap-group1 {
@@ -228,3 +243,15 @@ article h5, h6, a {
 .dropdown {
     margin-top: 20px;
 }
+
+
+@media only screen and (max-width: 1250px) {
+    aside {
+      flex-direction: column;
+    }
+    
+    main{
+        height: max-content;
+        padding-bottom: 50px;
+    }
+  }
