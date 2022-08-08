@@ -1,9 +1,11 @@
 # ideal-event-master
 
 ## Description
-Event Master is an all-inclusive website through which individuals can easily search for events occuring near them. Once a user types in a zipcode or city name, a map displays events using pins. In addition, a list of events appears underneath. Users also have the option to filter results based on what type of event they are looking for. 
+Event Master is an all-inclusive website through which individuals can easily search for events occurring near them. When a user loads the website, pictures of events and a search box appear. Once a user types in a zip-code or city name, a map displays events using pins. In addition, a list of events appears underneath. This list includes the event name, date, time, location, and link to purchase tickets. Users also have the option to filter results based on what type of event they are looking for.
 
-The search results are displayed using information from user input and by pulling data via the Ticketmaster API and Mapbox API. The functions run once the search button is clicked.
+The search results are displayed using information from user input and by pulling data via the Ticketmaster API and Mapbox API. Moment.js is used for formatting the date. Google fonts are used to style the titles. The functions run once the search button is clicked. 
+
+
 
 ## Screenshots
 ![](assets/images/Eventmaster-1.png)
