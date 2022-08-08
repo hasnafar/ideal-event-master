@@ -31,7 +31,6 @@ article {
     justify-content: center;
 }
 
-
 article h5, h6, a {
     width: 250px;
 }
@@ -41,14 +40,12 @@ article h5, h6, a {
     margin-top: 25px;
     justify-content: center;
     visibility: hidden;
-    background-color: var(--black-haze);;
-
+    background-color: var(--black-haze);
 }
 
 .result-headings h3{
     width: 250px;
     padding-top: 25px;
-
 }
 
 
@@ -57,8 +54,6 @@ article h5, h6, a {
     pointer-events: none;
     visibility: hidden;
 }
-
-
 
 .wrapper {
     background: url(./images/festival-background.png) no-repeat
@@ -71,6 +66,7 @@ article h5, h6, a {
     align-items: center;
     justify-content: center; 
   }
+
   .title {
     background: rgb(222, 214, 214);
     color: #000;
@@ -83,7 +79,6 @@ article h5, h6, a {
     text-transform: uppercase;
     padding-left:20px;
   }
-  
   
   @keyframes sliding-background {
     0%,
@@ -108,6 +103,7 @@ aside {
     margin-top:15px;
     margin-right:20px;
 }
+
 main {
         background-image: url(../assets/images/concert.jpeg);
         height:500px;
@@ -130,7 +126,6 @@ main {
     margin-left:30px;
     margin-top: 30px;
     opacity: 0.9 ;
-    
 }
 
 .border-1px-stack {
@@ -166,7 +161,6 @@ main {
 .overlap-group {
     align-items: stretch;
     display: flex;
-  
     margin-bottom: 25px;
  }
 
@@ -202,11 +196,8 @@ main {
 }
 
 .overlap-group2 {
-    
     border-radius: 6px;
-    
     margin-top: 35px;
-   
 }
 
 .search {
@@ -242,7 +233,6 @@ main {
 .dropdown {
     margin-top: 20px;
 }
-
 
 @media only screen and (max-width: 1250px) {
     aside {
