@@ -5,7 +5,6 @@
 :root {
     --black: rgba(0, 0, 0, 1);
     --stack: rgba(140, 140, 140, 1);
-    --perano: rgba(160, 198, 253, 1);
     --black-haze: rgba(246, 246, 246, 1);
     --white: rgba(255, 255, 255, 1);
 
@@ -14,6 +13,13 @@
     --font-size-x1: 64px;
 
     --font-family-inter: "Inter";
+}
+body{
+       background:var(--black-haze) 
+}
+
+header{
+    margin: 0px;
 }
 
 article {
@@ -45,14 +51,6 @@ article h5, h6, a {
 
 }
 
-.screen {
-    align-items: center;
-    background-color: var(--white);
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    width: 100%;
-}
 
 .hidden,
 .hidden * {
@@ -60,17 +58,7 @@ article h5, h6, a {
     visibility: hidden;
 }
 
-.overlap-group4 {
-    align-items: center; 
-    justify-content: center;
-    background-image: url(../assets/images/events-header.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    display: flex;
-    height: 100px;
-    min-width: 500px;
-    padding: 56px 482px;
-}
+
 
 .wrapper {
     background: url("https://wallpaperaccess.com/full/2795.jpg") no-repeat
@@ -106,23 +94,25 @@ article h5, h6, a {
     }
   }
 
-.flex-row {
-    align-items: flex-start;
+aside {
+    align-items: center;
     display: flex;
     margin-right: 1px;
-    margin-top: 25px;
-    min-width: 1453px;
+    gap:100px;
 }
 
 #map {
     height: 426px;
-    margin-left: 33px;
-    width: 943px;
+    width: 90vw;
+    margin-top:15px;
+    margin-right:20px;
 }
-main{
-background-image: url(../assets/images/concert.jpeg);
+main {
+        background-image: url(../assets/images/concert.jpeg);
+        height:500px;
+        width: 100vw;
+}
 
-}
 .overlap-group3 {
     align-items: flex-start;
     background: linear-gradient(135deg, rgb(43, 97, 151), rgba(38, 35, 35, 0));
@@ -136,6 +126,8 @@ background-image: url(../assets/images/concert.jpeg);
     padding: 34px 29px;
     width: 477px;
     border-radius: 32px;
+    margin-left:30px;
+    margin-top: 30px;
     
 }
 
@@ -170,8 +162,7 @@ background-image: url(../assets/images/concert.jpeg);
 }
 
 .overlap-group {
-    align-items: flex-end;
-    display: flex;
+  
     margin-bottom: 25px;
  }
 
@@ -207,9 +198,9 @@ background-image: url(../assets/images/concert.jpeg);
 }
 
 .overlap-group2 {
-    align-items: flex-start;
+    
     border-radius: 6px;
-    display: flex;
+    
     margin-top: 35px;
    
 }
@@ -247,3 +238,15 @@ background-image: url(../assets/images/concert.jpeg);
 .dropdown {
     margin-top: 20px;
 }
+
+
+@media only screen and (max-width: 1250px) {
+    aside {
+      flex-direction: column;
+    }
+    
+    main{
+        height: max-content;
+        padding-bottom: 50px;
+    }
+  }
