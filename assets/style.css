@@ -162,12 +162,9 @@ main {
 }
 
 .overlap-group {
-<<<<<<< HEAD
     align-items: stretch;
     display: flex;
-=======
   
->>>>>>> 1998e3de5d46a2d92bc5ed3ec18bc81b2087d5ad
     margin-bottom: 25px;
  }
 
