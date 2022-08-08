@@ -11,4 +11,5 @@ The search results are displayed using information from user input and by pullin
 ![](assets/images/event-master-3.png)
 
 ## Links
-<a href="" target="_blank">Deployed Application</a>
+<a href="https://hasnafar.github.io/ideal-event-master/" target="_blank">Deployed Application</a>
+<a href="https://github.com/hasnafar/ideal-event-master" target="_blank">GitHub Repository</a>
