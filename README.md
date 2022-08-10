@@ -15,3 +15,6 @@ The search results are displayed using information from user input and by pullin
 ## Links
 <a href="https://hasnafar.github.io/ideal-event-master/" target="_blank">Deployed Application</a>
 <a href="https://github.com/hasnafar/ideal-event-master" target="_blank">GitHub Repository</a>
+<a href="https://docs.google.com/presentation/d/1GkHvUCBwLksDfhesH4CW1rFFaghjbTyhl_Jy21H7kG8/edit#slide=id.p" target="_blank">Presentation Link</a>
+
+
